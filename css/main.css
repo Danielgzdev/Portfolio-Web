@@ -1,0 +1,79 @@
+/*==============================================
+[Main stylesheet style.css]
+
+Author:	Carlos Daniel Gonzalez - Web Developer
+Version:	1.0
+Created:	26 july 2022
+Last updated:	26 July 2022
+Template:	Template Portfolio - Web Template
+================================================*/
+/*
+[Table of Contents]
+
+1. GENERAL
+    1-1 HEADER
+2. SECTION-ONE
+3. SECTION-TWO
+4. SECTION-THREE
+5. SECTION-FOUR
+6. SECTION-FIVE
+7. FOOTER
+8. MEDIA QUERIES
+    - @media (min-width:720px)
+    - @media (min-width:900px)
+*/
+/*===============================================*/
+/* 1.GENERAL		 						 */
+/*===============================================*/	
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+
+h1 { font-size: 3.5em; font-family: 'Oswald', sans-serif; font-weight: 800;}
+h2 { font-size: 2.7em; font-family: 'Roboto', sans-serif;font-weight: 600;}
+h3 { font-size: 2em; font-family: 'Roboto', sans-serif; font-weight: 500;}
+h4 { font-size: 1.75em; font-family: 'Roboto', sans-serif;font-weight: 400;}
+p { font-size: 1.25em; font-family: 'Roboto', sans-serif;}
+ul { list-style: none;}
+
+:root {
+    --theme-color:#202020;
+    --first-color:#f50c23;
+    --second-color:#171716;
+    --third-color:#2e2f2f;
+    --fourth-color: white ;
+    --fifth-color:black;
+    --first-text-color:black;
+    --second-text-color:grey;
+    --text-color-inverse:white;  
+}
+
+button {
+    font-size: 1.0em;
+    font-weight: 300;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: var(--third-color);
+    color: var(--text-color-inverse);
+}
+
+button:hover {
+    background-color: var(--first-color);
+    color: var(--text-color-inverse);
+}

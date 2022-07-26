@@ -1,0 +1,434 @@
+/*===============================================*/
+/* 1-1 HEADER		 						 */
+/*===============================================*/	
+
+.header {
+    position: fixed;
+    width: 100%;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: var(--theme-color);
+}
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-logo {
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+
+.header-details {
+    margin-bottom: 10px;
+}
+
+.header-nav {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.header-nav a {
+    font-weight: 600;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    padding: 5px;  
+    text-decoration: none;
+    color: var(--text-color-inverse);
+}
+
+.header nav a:hover {
+    color: var(--first-color);
+}
+
+/*===============================================*/
+/* 2.SECTION-ONE	 						 */
+/*===============================================*/
+
+.section-one {
+    border: 1px solid rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: var(--text-color-inverse);
+    background: var(--theme-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+}
+
+.section-one-block {
+    margin: 20px auto;
+}
+
+.section-one-text {
+    font-size: 1.0em;
+    color: var(--text-color-inverse);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: var(--second-text-color);
+}
+
+.section-one-btn {
+    padding: 10px;
+}
+
+p {
+    color: var(--first-color);
+}
+
+/*===============================================*/
+/* 3.SECTION-TWO	 						 */
+/*===============================================*/
+
+.section-two {
+    background: var(--theme-color);
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding:30px;
+}
+
+.section-two p {
+    color: var(--second-text-color);
+}
+
+.span-one {
+    color: var(--text-color-inverse);
+}
+
+.span-two {
+    color: var(--first-color);
+}
+
+.section-two-text {
+    border-top: 1px solid grey;
+    font-size: 1.0em;
+}
+
+/*===============================================*/
+/* 4.SECTION-THREE 						 */
+/*===============================================*/
+
+.section-three {
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: var(--theme-color);
+    color: var(--text-color-inverse);
+    padding-bottom: 15px;
+}
+
+.section-three-title {
+    color: var(--first-color);
+    padding: 20px;
+}
+
+.category-one {
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    background-image: var(--theme-color);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.category-one-text {
+    font-size: 1.0em;
+    color: var(--text-color-inverse);
+}
+
+.category-two {
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    background-image: var(--theme-color);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.category-three {
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    background-image: var(--theme-color);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.category-four {
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    background-image: var(--theme-color);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+/*===============================================*/
+/* 5.SECTION-FOUR						 */
+/*===============================================*/
+
+.section-four {
+    border: 1px solid rgba(0, 0, 255, 0);
+    background: var(--second-color);
+}
+
+.section-four-title {
+    font-family: 'Oswald';
+    color: var(--fourth-color);
+    padding: 15px;
+}
+
+.section-four-info {
+    padding: 20px;
+}
+
+.section-four-text {
+    font-size: 1.0em;
+    color: var(--second-text-color);
+}
+
+.section-four p {
+    padding: 10px;
+}
+
+.section-four-img {
+    padding: 0 5px;
+    margin-bottom: 30px;
+}
+
+/*===============================================*/
+/* 6.SECTION-FIVE						 */
+/*===============================================*/
+
+.section-five {
+    border: 1px solid rgba(255, 0, 0, 0);
+    background: var(--theme-color);
+}
+
+.section-five-icon {
+    padding: 20px;
+}
+
+.sfive-ico {
+    padding: 0px 2px;
+}
+
+.five-title {
+    font-family: 'Oswald';
+    color: var(--text-color-inverse);
+    color: var(--first-color);
+    border-bottom: 1px solid grey;
+}
+
+.five-p {
+    color: var(--text-color-inverse);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 1.0em;
+}
+
+/*===============================================*/
+/* 7.FOOTER 						 */
+/*===============================================*/
+
+.section-footer {
+    background-color: var(--second-color);
+    color: var(--text-color-inverse);
+}
+
+.title-footer {
+    color: var(--second-text-color);
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+.footer-img {
+    padding: 2px;
+}
+
+.bloque-footer p {
+    padding: 20px;
+}
+
+.social-footer {
+    padding: 10px;
+}
+
+
+
+@media (min-width:720px) {
+
+    /*===============================================*/
+    /* 1-1 HEADER		 						 */
+    /*===============================================*/	
+
+    .header {
+        position: fixed;
+        width: 100%;
+    }
+    
+    .header-block {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-logo {
+        width: 10%;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .header-nav {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .header-details {
+        margin: 3px;
+        padding-top: 12px;
+    }
+
+    /*===============================================*/
+    /* 2.SECTION-ONE	 						 */
+    /*===============================================*/
+
+    .section-one .block h2 {
+        margin-top: 80%;
+    }
+
+    .section-one {
+        border: 1px solid rgba(255, 0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: 70vh;
+        color: var(--text-color-inverse);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(/img/img.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /*===============================================*/
+    /* 3.SECTION-TWO	 						 */
+    /*===============================================*/
+
+    .section-two .section-two-block {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .section-two .section-two-details {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0 30px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section-two .section-two-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.200)), url(/img/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg);
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center center;
+        width: 500px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    /*===============================================*/
+    /* 4.SECTION-THREE 						 */
+    /*===============================================*/
+
+    .section-three-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-three-block p {
+        padding: 0px;
+    }
+
+    .category-one {
+    padding: 5px;
+    }
+
+    .category-two {
+    padding: 5px;
+    }
+
+    .category-three {
+    padding: 5px;
+    }
+
+    .category-four {
+    padding: 5px;
+    }
+
+    /*===============================================*/
+    /* 7.FOOTER						 */
+    /*===============================================*/
+
+    .bloque-footer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .bloque-footer p {
+        padding: 10px;
+    }
+
+    .social-footer {
+        padding: 10px;
+    }
+
+}
+
+@media (min-width:900px) {
+
+    /*===============================================*/
+    /* 4.SECTION-THREE 						 */
+    /*===============================================*/
+    
+    .section-three-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .category-one {
+    float: left;    
+    }
+
+    .category-two {
+        float: right;    
+    }
+
+    .category-three {
+        float: right;    
+    }
+
+    .category-four {
+        float: right;    
+    }
+
+    .category-one {
+        width: 20%;
+        padding: 10px 50px;
+        
+    }
+}
+
